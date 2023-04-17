@@ -1,9 +1,3 @@
-######Video source: https://ke.biowolf.cn
-######生信自学网: https://www.biowolf.cn/
-######微信公众号：biowolf_cn
-######合作邮箱：biowolf@foxmail.com
-######答疑微信: 18520221056
-
 #install.packages("Seurat")
 
 #if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -250,9 +244,3 @@ for(i in levels(factor(groups$State))){
 unionGenes=Reduce(union,geneList)
 write.table(file="05.monocleDiff.union.txt",unionGenes,sep="\t",quote=F,col.names=F,row.names=F)
 
-
-######Video source: https://ke.biowolf.cn
-######生信自学网: https://www.biowolf.cn/
-######微信公众号：biowolf_cn
-######合作邮箱：biowolf@foxmail.com
-######答疑微信: 18520221056
